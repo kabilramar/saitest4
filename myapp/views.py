@@ -19,7 +19,7 @@ def index(request):
             return redirect('select')
         except:
             print("error")
-    return render(request,"index.htm")
+    return render(request,"index.html")
 
 def edit (request,id):
     db=Student.objects.get(id=id)
