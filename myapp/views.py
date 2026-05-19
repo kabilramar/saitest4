@@ -5,7 +5,7 @@ from django.shortcuts import render
 
 # Create your views here.
 from django.shortcuts import render,redirect
-from requests import request
+
 from .models import Student
 # insert operation
 def index(request):
